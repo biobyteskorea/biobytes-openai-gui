@@ -92,7 +92,7 @@ function App() {
         </button>
         {error || type == 0 ?
           <pre className="text-red bg-slate-500 min-h-20 p-3 rounded">{error || result}</pre>
-          : type == 'image' ? <img src={result} className="w-full" />
+          : type == 1 ? <img src={result} className="w-full" />
             : <></>
         }
 

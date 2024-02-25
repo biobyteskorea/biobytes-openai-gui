@@ -34,7 +34,7 @@ function App() {
             model: 'dall-e-3',
             prompt: prompt,
             n: 1,
-            size: '1024x1024',
+            size: '1792x1024',
           })
           setResult(res.data[0].url);
           setError(false);
@@ -49,7 +49,7 @@ function App() {
 
   return (
     <main className="main">
-      <div className="w-2/4 mx-auto">
+      <div className="md:w-2/4 mx-auto">
         <h2 className="font-bold text-5xl text-slate-1000 z-10 relative">
           OpenAI API GUI
         </h2>

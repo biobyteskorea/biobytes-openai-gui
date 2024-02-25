@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/biobytes-openai-gui/static/css/main.3512a49d.css",
-    "main.js": "/biobytes-openai-gui/static/js/main.7630463f.js",
+    "main.css": "/biobytes-openai-gui/static/css/main.798dadb7.css",
+    "main.js": "/biobytes-openai-gui/static/js/main.ede22e34.js",
     "index.html": "/biobytes-openai-gui/index.html",
-    "main.3512a49d.css.map": "/biobytes-openai-gui/static/css/main.3512a49d.css.map",
-    "main.7630463f.js.map": "/biobytes-openai-gui/static/js/main.7630463f.js.map"
+    "main.798dadb7.css.map": "/biobytes-openai-gui/static/css/main.798dadb7.css.map",
+    "main.ede22e34.js.map": "/biobytes-openai-gui/static/js/main.ede22e34.js.map"
   },
   "entrypoints": [
-    "static/css/main.3512a49d.css",
-    "static/js/main.7630463f.js"
+    "static/css/main.798dadb7.css",
+    "static/js/main.ede22e34.js"
   ]
 }

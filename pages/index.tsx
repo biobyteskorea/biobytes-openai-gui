@@ -98,6 +98,9 @@ export default function Home() {
           className="w-full p-2 rounded bg-gray-400 text-black mb-10 cursor-pointer z-0"
           placeholder="INSERT API KEY : "
           defaultValue={apiKey}
+          onChange={(e) => {
+            setApiKey(e.target.value);
+          }}
         />
         <div className="bg-gray-50 rounded">
           <div className="p-5 h-[600px] overflow-auto flex flex-col gap-2" ref={msgRef}>

@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "sudo pm2 start --name inner-01-openai-gui \"npx next start -p 4000\"",
     "kill": "sudo pm2 delete inner-01-openai-gui",
+    "rebuild": "npm run kill; npm run build; npm run start",
     "lint": "next lint"
   },
   "dependencies": {

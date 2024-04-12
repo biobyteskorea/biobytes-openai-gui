@@ -1,12 +1,12 @@
 {
-  "name": "inner-01-openai-gui",
+  "name": "biobytes-openai",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev -p 4000",
     "build": "next build",
-    "start": "sudo pm2 start --name inner-01-openai-gui \"npx next start -p 4000\"",
-    "kill": "sudo pm2 delete inner-01-openai-gui",
+    "start": "sudo pm2 start --name biobytes-openai \"npx next start -p 4000\"",
+    "kill": "sudo pm2 delete biobytes-openai",
     "rebuild": "npm run kill; npm run build; npm run start",
     "lint": "next lint"
   },

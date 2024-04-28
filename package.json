@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "sudo pm2 start --name biobytes-openai \"npx next start -p 4000\"",
     "kill": "sudo pm2 delete biobytes-openai",
-    "rebuild": "npm run kill; npm run build; npm run start",
+    "rebuild": "npm i; npm run kill; npm run build; npm run start",
     "lint": "next lint"
   },
   "dependencies": {
